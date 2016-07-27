@@ -11,7 +11,7 @@ app.controller('MainCtrl', function($scope) {
                 showValues: true,
                 duration: 500,
                 margin: {
-                  left: 400,
+                  left: 300,
                   right: 100
                 },
                 stacked: false,
@@ -19,7 +19,7 @@ app.controller('MainCtrl', function($scope) {
                     showMaxMin: false
                 },
                 yAxis: {
-                    axisLabel: 'Values',
+                    axisLabel: 'Values de x',
                     tickFormat: function(d){
                         return d3.format(',.2f')(d);
                     }
